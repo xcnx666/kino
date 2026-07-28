@@ -15,7 +15,7 @@ Kino 是一个开源的 AI 视频 Agent 平台。通过与 AI 导演对话，自
 ### Docker 部署（推荐）
 
 ```bash
-git clone <repository_url>
+git clone https://github.com/xcnx666/kino.git
 cd kino
 docker-compose up -d --build
 ```
@@ -33,7 +33,7 @@ docker-compose down
 ### 本地部署
 
 ```bash
-git clone <repository_url>
+git clone https://github.com/xcnx666/kino.git
 cd kino
 pip install -r requirements.txt
 
@@ -45,6 +45,10 @@ python3 run_web.py
 ```
 
 浏览器打开 http://localhost:8000
+
+##生成案例
+![生成案例](script/e7f16182e96110a4f9d1b76532bb6651_raw.mp4)
+
 
 ## 核心特性
 
