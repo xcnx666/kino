@@ -1,0 +1,28 @@
+{
+  "id": "task_95e5283e",
+  "session_id": "chat_5aa209b2",
+  "session_title": "检查一下文生视频",
+  "user_message": "检查一下文生视频和文生图工具正常吗",
+  "status": "completed",
+  "error": "",
+  "assets": [
+    {
+      "type": "image",
+      "url": "https://platform-outputs.agnes-ai.space/images/t2i/fae1bd4b62ab4579a3e2b0117f5d61d7.png",
+      "tool": "generate_image"
+    },
+    {
+      "type": "video",
+      "url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-v2.0/task_Fx1SMAEAiU50uvndbuDLrW0OYGi3zRcz.mp4",
+      "tool": "generate_video"
+    },
+    {
+      "type": "audio",
+      "url": "/output/chat_5aa209b2/task_95e5283e/audio/test_tts.mp3",
+      "tool": "text_to_speech"
+    }
+  ],
+  "result_text": "\n\n✅ 语音合成也正常！\n\n---\n\n## 📋 工具测试报告\n\n| 工具 | 状态 | 详情 |\n|------|------|------|\n| 🖼️ **文生图 (generate_image)** | ✅ 正常 | 生成 1280×720 山景图，返回有效 URL |\n| 🎬 **图生视频 (generate_video)** | ✅ 正常 | 以图片为首帧生成 6 秒视频，返回有效 URL |\n| 🎤 **语音合成 (text_to_speech)** | ✅ 正常 | edge_tts 引擎，中文音色正常 |\n| 📂 **素材读取 (list_materials)** | ✅ 正常 | 会话素材库为空（无上传素材） |\n\n**结论：所有核心工具均正常工作，可以开始创作视频了！** 🎬\n\n---\n\n你想做什么主题的视频？可以告诉我创意方向，或者上传一些素材（文案/图片/参考视频），我来帮你制作。",
+  "created_at": "2026-07-28T21:59:15",
+  "updated_at": "2026-07-28T22:06:58"
+}

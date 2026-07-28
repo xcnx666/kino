@@ -1,0 +1,12 @@
+{
+  "id": "task_ef36928a",
+  "session_id": "chat_9eaafdb7",
+  "session_title": "帮我设置一个20",
+  "user_message": "不用 tts直接合成视频就行",
+  "status": "failed",
+  "error": "被用户中断",
+  "assets": [],
+  "result_text": "",
+  "created_at": "2026-07-28T22:52:05",
+  "updated_at": "2026-07-28T22:52:20"
+}

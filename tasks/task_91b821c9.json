@@ -1,0 +1,23 @@
+{
+  "id": "task_91b821c9",
+  "session_id": "chat_5aa209b2",
+  "session_title": "检查一下文生视频",
+  "user_message": "tts模型很奇怪",
+  "status": "completed",
+  "error": "",
+  "assets": [
+    {
+      "type": "audio",
+      "url": "/output/chat_5aa209b2/task_91b821c9/audio/test_tts_female2.mp3",
+      "tool": "text_to_speech"
+    },
+    {
+      "type": "audio",
+      "url": "/output/chat_5aa209b2/task_91b821c9/audio/test_tts_male.mp3",
+      "tool": "text_to_speech"
+    }
+  ],
+  "result_text": "\n\n三个中文音色（晓晓/晓依/云希）文件都已生成，技术上参数正常（24kHz mono MP3，~5.4秒），但我没法直接\"听\"来判断质量。\n\n**你说 TTS 模型很奇怪，具体是指什么？**\n\n可能的情况：\n\n| 问题 | 可能原因 | 解决方案 |\n|------|----------|----------|\n| 🤖 声音太机械/机器人感 | edge_tts 引擎质量一般 | 尝试其他引擎 |\n| ⚡ 语速异常快/慢 | 引擎默认语速问题 | 调整语速参数 |\n| 🔇 音量太小或失真 | 采样率/比特率问题 | 24kHz 偏低，可后处理 |\n| 📝 读音/断句不对 | Neural 模型问题 | 换音色或引擎 |\n| ❌ 引擎根本没工作 | 后端问题 | 返回了空/错误文件 |\n\n你能描述一下具体听感吗？另外我也可以试试其他 TTS 引擎，比如：\n- **OpenAI 兼容引擎**（voice: alloy/echo/fable/onyx/nova/shimmer）\n- **Agnes 引擎**（如果你有的话）\n\n告诉我具体哪里奇怪，我来排查和替换。",
+  "created_at": "2026-07-28T22:08:28",
+  "updated_at": "2026-07-28T22:09:26"
+}

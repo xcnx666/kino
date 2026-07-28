@@ -1,0 +1,18 @@
+{
+  "id": "task_b5ccb07b",
+  "session_id": "chat_5aa209b2",
+  "session_title": "检查一下文生视频",
+  "user_message": "合成",
+  "status": "completed",
+  "error": "",
+  "assets": [
+    {
+      "type": "video",
+      "url": "/output/chat_5aa209b2/task_b5ccb07b/final/test_compose.mp4",
+      "tool": "ffmpeg_compose"
+    }
+  ],
+  "result_text": "\n\n✅ **合成完成！**\n\n### 📋 合成报告\n\n| 项目 | 内容 |\n|------|------|\n| **输出文件** | `output/chat_5aa209b2/task_b5ccb07b/final/test_compose.mp4` |\n| **文件大小** | ~1.1 MB |\n| **结构** | 2 个片段：静态图片 2s → 图生视频 6s = **共 8 秒** |\n| **音频** | 旁白 \"日出从雪山之巅升起，金色的光芒照亮了整个山谷。\" 已叠加 |\n\n### 合成流程回顾\n\n```\n🖼️ 静态首帧 (2s) → 🎬 山景推近动画 (6s) → 🔊 旁白配音\n```\n\n---\n\n## ✅ 全部工具测试通过\n\n| 工具 | 状态 |\n|------|------|\n| generate_image | ✅ |\n| generate_video (图生视频) | ✅ |\n| text_to_speech | ✅ |\n| ffmpeg_compose | ✅ |\n| download_file | ✅ |\n| extract_last_frame | ⚠️ 未单独测试（会在正式制作时一起验证） |\n\n**所有核心工具链运转正常，可以开始正式创作了！** 你想做什么主题的视频？告诉我创意方向或上传素材，我来为你导演制作。",
+  "created_at": "2026-07-28T22:07:11",
+  "updated_at": "2026-07-28T22:08:15"
+}

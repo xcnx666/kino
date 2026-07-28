@@ -1,0 +1,12 @@
+{
+  "id": "task_a210d54a",
+  "session_id": "chat_5aa209b2",
+  "session_title": "检查一下文生视频",
+  "user_message": "有没有其他的音色，音速和音调可以调吗",
+  "status": "failed",
+  "error": "被用户中断",
+  "assets": [],
+  "result_text": "",
+  "created_at": "2026-07-28T22:09:27",
+  "updated_at": "2026-07-28T22:09:47"
+}

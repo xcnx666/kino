@@ -1,0 +1,18 @@
+version: "3.8"
+
+services:
+  kino:
+    build: .
+    container_name: kino
+    ports:
+      - "8000:8000"
+    volumes:
+      # 持久化上传文件、输出视频、模型配置
+      - ./uploads:/app/uploads
+      - ./output:/app/output
+      - ./config:/app/config
+      # 环境变量文件（可选）
+      - ./.env:/app/.env:ro
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped

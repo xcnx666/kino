@@ -1,0 +1,28 @@
+{
+  "id": "task_bb4c9f70",
+  "session_id": "chat_5aa209b2",
+  "session_title": "检查一下文生视频",
+  "user_message": "帮我生成一个20秒的视频宣传中国西北部的高原风景，不需要旁白视频的分镜速度，你自己看着来",
+  "status": "failed",
+  "error": "被用户中断",
+  "assets": [
+    {
+      "type": "image",
+      "url": "https://platform-outputs.agnes-ai.space/images/t2i/9b351a27f96748a9a13880b108763afb.png",
+      "tool": "generate_image"
+    },
+    {
+      "type": "image",
+      "url": "https://platform-outputs.agnes-ai.space/images/t2i/1ba7768c30544b9a81ff774570512155.png",
+      "tool": "generate_image"
+    },
+    {
+      "type": "image",
+      "url": "https://platform-outputs.agnes-ai.space/images/t2i/049ec0dd69464d3ca7206072910c2e28.png",
+      "tool": "generate_image"
+    }
+  ],
+  "result_text": "",
+  "created_at": "2026-07-28T22:10:26",
+  "updated_at": "2026-07-28T22:15:41"
+}

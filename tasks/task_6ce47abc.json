@@ -1,0 +1,18 @@
+{
+  "id": "task_6ce47abc",
+  "session_id": "chat_9eaafdb7",
+  "session_title": "帮我设置一个20",
+  "user_message": "不用 tts直接合成视频就行",
+  "status": "completed",
+  "error": "",
+  "assets": [
+    {
+      "type": "video",
+      "url": "/output/chat_9eaafdb7/task_6ce47abc/final/new_york_promo.mp4",
+      "tool": "ffmpeg_compose"
+    }
+  ],
+  "result_text": "\n\n✅ 合成完成，无旁白纯视频版本已生成。\n\n**📁 最终文件**：`output/new_york_promo.mp4`（20秒 / 5个镜头 / 1280×720）\n\n### 🎬 分镜回顾\n\n| # | 场景 | 镜头语言 |\n|---|------|---------|\n| 1 | 黎明航拍飞越哈德逊河→曼哈顿天际线 | 无人机前推，日出渐亮 |\n| 2 | 仰视帝国大厦，阳光穿云 | 缓慢仰角推进 |\n| 3 | 中央公园湖面晨光，跑步者 | 穿林缓推，宁静自然 |\n| 4 | 时代广场霓虹夜景，人潮涌动 | 横向摇镜，都市脉搏 |\n| 5 | 日落曼哈顿全景，自由女神入画 | 航拍拉远抬高，史诗收尾 |\n\n**叙事弧线**：黎明 → 晨光 → 白昼 → 深夜 → 黄昏，以一天的时间跨度展现纽约从宁静到繁华再到壮美的城市全貌。",
+  "created_at": "2026-07-28T22:52:20",
+  "updated_at": "2026-07-28T22:52:46"
+}
