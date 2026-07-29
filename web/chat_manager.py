@@ -735,7 +735,11 @@ class ChatManager:
             saved_messages = data.get("messages", [])
 
             # 创建会话：_init_components 会重新初始化 LLM、工具，并添加系统提示词
-            session = ChatSession(session_id, title, manager=self)
+            try:
+                session = ChatSession(session_id, title, manager=self)
+            except Exception as e:
+                logger.error(f"创建会话 {session_id} 失败（跳过）: {e}")
+                continue
             # 保留系统提示词（messages[0]），追加持久化的历史消息
             # （系统提示词由 _init_components 重新生成，确保素材库信息最新）
             session.messages = session.messages[:1]

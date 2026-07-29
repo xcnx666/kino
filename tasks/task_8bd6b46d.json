@@ -1,0 +1,48 @@
+{
+  "id": "task_8bd6b46d",
+  "session_id": "chat_cd6067bc",
+  "session_title": "你好",
+  "user_message": "继续完整生成",
+  "status": "failed",
+  "error": "被用户中断",
+  "assets": [
+    {
+      "type": "image",
+      "url": "https://platform-outputs.agnes-ai.space/images/t2i/6e0c336354d4455eac3f7714163a50d1.png",
+      "tool": "generate_image"
+    },
+    {
+      "type": "video",
+      "url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-v2.0/task_nmnQgc8Cnd86zKy5HXBbmzYJmlMiVjQj.mp4",
+      "tool": "generate_video"
+    },
+    {
+      "type": "video",
+      "url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-v2.0/task_RWZxBngMAXthQhMZ43vuwMkMmin7WR6o.mp4",
+      "tool": "generate_video"
+    },
+    {
+      "type": "image",
+      "url": "https://platform-outputs.agnes-ai.space/images/t2i/17c2376fe379461cb476b400d0b2452c.png",
+      "tool": "generate_image"
+    },
+    {
+      "type": "video",
+      "url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-v2.0/task_8zkkoLsRvxvJFwEsiJT4v9W1LfG3oDEr.mp4",
+      "tool": "generate_video"
+    },
+    {
+      "type": "image",
+      "url": "https://platform-outputs.agnes-ai.space/images/t2i/1340d1d2059c403ead03a50903fb44ce.png",
+      "tool": "generate_image"
+    },
+    {
+      "type": "video",
+      "url": "https://platform-outputs.agnes-ai.space/videos/agnes-video-v2.0/task_iYlKOOx1ExKt8wmUnk61wNw2ZlpRogRI.mp4",
+      "tool": "generate_video"
+    }
+  ],
+  "result_text": "",
+  "created_at": "2026-07-29T10:51:08",
+  "updated_at": "2026-07-29T11:27:00"
+}

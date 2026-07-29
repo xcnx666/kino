@@ -1,0 +1,12 @@
+{
+  "id": "task_b2c62d66",
+  "session_id": "chat_5aa209b2",
+  "session_title": "检查一下文生视频",
+  "user_message": "你好",
+  "status": "failed",
+  "error": "模型调用失败: Error code: 400 - {'code': 20037, 'message': 'Function call is not supported for this model.', 'data': None}",
+  "assets": [],
+  "result_text": "",
+  "created_at": "2026-07-29T10:21:23",
+  "updated_at": "2026-07-29T10:21:25"
+}

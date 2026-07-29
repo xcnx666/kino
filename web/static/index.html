@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
-    <link rel="apple-touch-icon" href="/static/favicon.svg">
+    <link rel="icon" type="image/png" href="/static/logo.png">
+    <link rel="apple-touch-icon" href="/static/logo.png">
     <title>Kino</title>
     <style>
         /* ===== 浅色主题（默认） — Apple 风格 ===== */
@@ -100,22 +100,12 @@
         .logo-icon {
             width: 28px;
             height: 28px;
-            background: var(--accent);
+            background: url('/static/logo.png') center / cover no-repeat;
             border-radius: 8px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 14px;
-            color: white;
             transition: transform var(--transition);
         }
         .logo:hover .logo-icon {
             transform: scale(1.05);
-        }
-
-        [data-theme="dark"] .logo-icon {
-            background: #ffffff;
-            color: #1c1c1e;
         }
 
         .theme-toggle {
@@ -1345,19 +1335,10 @@
         .welcome-logo {
             width: 52px;
             height: 52px;
-            background: var(--accent);
+            background: url('/static/logo.png') center / cover no-repeat;
             border-radius: 18px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 32px;
-            color: white;
             flex-shrink: 0;
             box-shadow: var(--shadow-lg);
-        }
-        [data-theme="dark"] .welcome-logo {
-            background: #ffffff;
-            color: #1c1c1e;
         }
 
         .welcome-title {
@@ -3237,7 +3218,7 @@
     <div class="sidebar">
         <div class="sidebar-header">
             <div class="logo" onclick="toggleTheme()" title="点击切换主题" style="cursor: pointer;">
-                <div class="logo-icon" id="logoIcon">K</div>
+                <div class="logo-icon" id="logoIcon"></div>
                 <span>Kino</span>
             </div>
             <button class="sidebar-toggle" id="sidebarToggle" onclick="toggleSidebar()" title="收起/展开侧边栏">
@@ -3367,7 +3348,7 @@
 
         <!-- 欢迎屏（空对话时居中显示输入框） -->
         <div class="welcome-container" id="welcomeContainer">
-            <div class="welcome-logo">K</div>
+            <div class="welcome-logo"></div>
             <div class="welcome-title">有什么可以帮忙的？</div>
             <div class="welcome-subtitle">描述你想要生成的视频内容，Kino 会自动完成剧本、分镜、素材生成与视频合成。</div>
             <div class="welcome-input-wrapper">

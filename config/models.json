@@ -1,6 +1,6 @@
 {
   "llm": {
-    "active_id": "47e7e690",
+    "active_id": "73ec4201",
     "configs": [
       {
         "id": "47e7e690",
@@ -14,7 +14,7 @@
         "id": "73ec4201",
         "name": "agnes",
         "provider": "openai_compatible",
-        "api_key": "sk-zZ6zpdHfihBw7m18GoNheavqPYpQ4TDOg9Y2eReTdGMCMleb",
+        "api_key": "sk-bSEQE9l3ARcAGPEfiCmv8VcvLOE4MaN6pgefOxFoUpwv09wj",
         "base_url": "https://apihub.agnes-ai.com/v1",
         "model": "agnes-2.5-flash"
       }
@@ -27,7 +27,7 @@
         "id": "d34864f6",
         "name": "Agnes 文生图",
         "provider": "agnes",
-        "api_key": "sk-zZ6zpdHfihBw7m18GoNheavqPYpQ4TDOg9Y2eReTdGMCMleb",
+        "api_key": "sk-bSEQE9l3ARcAGPEfiCmv8VcvLOE4MaN6pgefOxFoUpwv09wj",
         "base_url": "https://apihub.agnes-ai.com/v1",
         "model": "agnes-image-2.1-flash",
         "default_size": "1024x1024"
@@ -41,13 +41,22 @@
         "id": "ad9646b1",
         "name": "Agnes 文生视频",
         "provider": "agnes",
-        "api_key": "sk-zZ6zpdHfihBw7m18GoNheavqPYpQ4TDOg9Y2eReTdGMCMleb",
+        "api_key": "sk-bSEQE9l3ARcAGPEfiCmv8VcvLOE4MaN6pgefOxFoUpwv09wj",
         "base_url": "https://apihub.agnes-ai.com/v1",
         "model": "agnes-video-v2.0",
-        "default_width": 1152,
-        "default_height": 768,
-        "default_num_frames": 121,
-        "default_frame_rate": 24
+        "default_width": "1152",
+        "default_height": "768",
+        "default_num_frames": "121",
+        "default_frame_rate": "24",
+        "default_duration": "",
+        "mode": "async_poll",
+        "create_path": "",
+        "poll_path": "",
+        "task_id_key": "",
+        "status_key": "",
+        "done_value": "",
+        "fail_value": "",
+        "url_key": ""
       }
     ]
   },

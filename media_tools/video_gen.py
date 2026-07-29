@@ -106,21 +106,40 @@ class VideoGenTool(ToolBase):
         self.base_url = self.config.get("base_url", "").rstrip("/")
         self.model = self.config.get("model", "")
         self.config_name = self.config.get("name", "未知模型")
-        self.default_width = int(self.config.get("default_width", 1280))
-        self.default_height = int(self.config.get("default_height", 720))
-        self.default_num_frames = int(self.config.get("default_num_frames", 121))
-        self.default_frame_rate = int(self.config.get("default_frame_rate", 24))
-        self.default_duration = float(self.config.get("default_duration", 5))
+
+        def _int(key: str, default: int) -> int:
+            val = self.config.get(key, default)
+            try:
+                return int(val) if val != "" else default
+            except (TypeError, ValueError):
+                return default
+
+        def _float(key: str, default: float) -> float:
+            val = self.config.get(key, default)
+            try:
+                return float(val) if val != "" else default
+            except (TypeError, ValueError):
+                return default
+
+        def _str(key: str, default: str) -> str:
+            val = self.config.get(key, default)
+            return val if val else default
+
+        self.default_width = _int("default_width", 1280)
+        self.default_height = _int("default_height", 720)
+        self.default_num_frames = _int("default_num_frames", 121)
+        self.default_frame_rate = _int("default_frame_rate", 24)
+        self.default_duration = _float("default_duration", 5)
 
         # 异步轮询模式的可配置字段（provider=async_poll 时生效）
-        self.mode = self.config.get("mode", "async_poll")
-        self.create_path = self.config.get("create_path", "/videos")
-        self.poll_path = self.config.get("poll_path", "/videos/{task_id}")
-        self.task_id_key = self.config.get("task_id_key", "task_id")
-        self.status_key = self.config.get("status_key", "status")
-        self.done_value = self.config.get("done_value", "completed")
-        self.fail_value = self.config.get("fail_value", "failed")
-        self.url_key = self.config.get("url_key", "video_url")
+        self.mode = _str("mode", "async_poll")
+        self.create_path = _str("create_path", "/videos")
+        self.poll_path = _str("poll_path", "/videos/{task_id}")
+        self.task_id_key = _str("task_id_key", "task_id")
+        self.status_key = _str("status_key", "status")
+        self.done_value = _str("done_value", "completed")
+        self.fail_value = _str("fail_value", "failed")
+        self.url_key = _str("url_key", "video_url")
 
     def _headers(self) -> Dict[str, str]:
         return {
