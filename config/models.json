@@ -6,7 +6,7 @@
         "id": "47e7e690",
         "name": "sensenova-6.7-flash-lite",
         "provider": "openai_compatible",
-        "api_key": "sk-Joyftfo3ppBPok3n4XT8rqNehFsKSAaI",
+        "api_key": "you_key",
         "base_url": "https://token.sensenova.cn/v1",
         "model": "sensenova-6.7-flash-lite"
       },
@@ -14,7 +14,7 @@
         "id": "73ec4201",
         "name": "agnes",
         "provider": "openai_compatible",
-        "api_key": "sk-bSEQE9l3ARcAGPEfiCmv8VcvLOE4MaN6pgefOxFoUpwv09wj",
+        "api_key": "you_key",
         "base_url": "https://apihub.agnes-ai.com/v1",
         "model": "agnes-2.5-flash"
       }
@@ -27,7 +27,7 @@
         "id": "d34864f6",
         "name": "Agnes 文生图",
         "provider": "agnes",
-        "api_key": "sk-bSEQE9l3ARcAGPEfiCmv8VcvLOE4MaN6pgefOxFoUpwv09wj",
+        "api_key": "you_key",
         "base_url": "https://apihub.agnes-ai.com/v1",
         "model": "agnes-image-2.1-flash",
         "default_size": "1024x1024"
@@ -41,7 +41,7 @@
         "id": "ad9646b1",
         "name": "Agnes 文生视频",
         "provider": "agnes",
-        "api_key": "sk-bSEQE9l3ARcAGPEfiCmv8VcvLOE4MaN6pgefOxFoUpwv09wj",
+        "api_key": "you_key",
         "base_url": "https://apihub.agnes-ai.com/v1",
         "model": "agnes-video-v2.0",
         "default_width": "1152",
